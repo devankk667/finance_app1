@@ -1,0 +1,46 @@
+# Environment files and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dart and Flutter generated files
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/build/
+**/coverage/
+
+# Python backend and local environments
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.coverage
+**/htmlcov/
+
+# Local financial data and SQLite artifacts
+/backend/*.db*
+**/*.sqlite
+**/*.sqlite3
+
+# Flutter SDK installed locally in this workspace
+/flutter/
+
+# Platform-specific generated files and signing secrets
+**/android/local.properties
+**/android/key.properties
+**/*.jks
+**/*.keystore
+**/ios/Pods/
+**/ios/Flutter/ephemeral/
+**/linux/flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+**/windows/flutter/ephemeral/
+
+# Local editor and OS files
+**/.idea/
+**/.DS_Store
+**/Thumbs.db
